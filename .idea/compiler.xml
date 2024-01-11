@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="practice1" />
+        <module name="practice2" />
+        <module name="practice9" />
+        <module name="practice7" />
+        <module name="practice8" />
+        <module name="practice5" />
+        <module name="practice6" />
+        <module name="practice3" />
+        <module name="practice4" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="practice1" options="-parameters" />
+      <module name="practice2" options="-parameters" />
+      <module name="practice3" options="-parameters" />
+      <module name="practice4" options="-parameters" />
+      <module name="practice5" options="-parameters" />
+      <module name="practice6" options="-parameters" />
+      <module name="practice7" options="-parameters" />
+      <module name="practice8" options="-parameters" />
+      <module name="practice9" options="-parameters" />
+    </option>
+  </component>
+</project>
